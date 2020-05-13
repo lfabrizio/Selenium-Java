@@ -3,7 +3,17 @@ package com.herokuapp.theinternet;
 public class PositiveTests {
 
 	public void loginTest() {
-		// single line comment or toggle comment
+		// create driver
+		System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver.exe");
+//		open test page
+//		enter userName
+//		enter password
+//		click login button
+//		
+//		verification:
+//			new URL
+//			logout button
+//			successful message
 	}
 	
 }
