@@ -5,7 +5,8 @@ public class PositiveTests {
 	public void loginTest() {
 		// create driver
 		System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver.exe");
-//		open test page
+		Webdriver driver = new ChromeDriver();
+		//		open test page
 //		enter userName
 //		enter password
 //		click login button
