@@ -13,7 +13,15 @@ public class PositiveTests {
 		String url = "https://the-internet.herokuapp.com/login";
 		driver.get(url);
 		
-		// maximixe browser window
+		// sleep for 3 seconds
+		try {
+			Thread.sleep(3000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		// maximize browser window
 		driver.manage().window().maximize();
 //		enter userName
 //		enter password
