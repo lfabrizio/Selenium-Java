@@ -15,8 +15,8 @@ public class PositiveTests {
 		System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		
-		// sleep for 3 seconds
-		sleep(3000);
+		// sleep for 2 seconds
+		sleep(2000);
 				
 		// maximize browser window
 		driver.manage().window().maximize();
@@ -26,8 +26,8 @@ public class PositiveTests {
 		driver.get(url);
 		System.out.println("page is opened");
 		
-		// sleep for 2 seconds
-		sleep(2000);
+		// sleep for 5 seconds
+		sleep(5000);
 		
 		
 //		enter userName
